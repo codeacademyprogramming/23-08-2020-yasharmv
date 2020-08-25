@@ -4,18 +4,24 @@ body {
     width: 1620px;
     font-family: 'Poppins', sans-serif;
    .header {
-       height: 1500px;
+       height: 744px;
        background-image: url(../images/BgShape.jpg);
+       background-repeat: no-repeat;
     .navbar {
         margin: auto;
+        padding-top: 60px;
         width: 1169px;
         display: flex;
         justify-content: space-between;
         .logo {
+            i {
+                color: white;
+            }
             h1 {
                 font-size: 24px;
                 font-weight: 700;
                 display: inline-block;
+                color: white;
             }
         }
         .navbar-menu {
@@ -23,9 +29,10 @@ body {
                 font-size: 16px;
                 margin-right: 10px;
                 line-height: 25px;
+                color: white;
             }
             button {
-                width: 120px;
+                width: 100px;
                 border-radius: 30%;
                 border-color: white;
             }

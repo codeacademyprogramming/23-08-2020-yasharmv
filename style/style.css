@@ -6,12 +6,14 @@ body {
 }
 
 body .header {
-  height: 1500px;
+  height: 744px;
   background-image: url(../images/BgShape.jpg);
+  background-repeat: no-repeat;
 }
 
 body .header .navbar {
   margin: auto;
+  padding-top: 60px;
   width: 1169px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,20 +23,26 @@ body .header .navbar {
           justify-content: space-between;
 }
 
+body .header .navbar .logo i {
+  color: white;
+}
+
 body .header .navbar .logo h1 {
   font-size: 24px;
   font-weight: 700;
   display: inline-block;
+  color: white;
 }
 
 body .header .navbar .navbar-menu span {
   font-size: 16px;
   margin-right: 10px;
   line-height: 25px;
+  color: white;
 }
 
 body .header .navbar .navbar-menu button {
-  width: 120px;
+  width: 100px;
   border-radius: 30%;
   border-color: white;
 }
